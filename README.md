@@ -13,6 +13,8 @@ The main comparison is controlled: all models use the same ID embeddings, BPR lo
 ```text
 final_report.pdf                         final submitted report
 final_report.tex                         LaTeX source for the report
+references.tex                           manually curated bibliography used by final_report.tex
+Makefile                                 two-pass LaTeX build target
 requirements.txt                         Python package list
 reproduceable_workspace/
   README.md                              short original workflow note
@@ -86,11 +88,10 @@ python3 scripts/run_yahoo_lightgcn_smoke.py \
   --data-only
 
 cd ..
-pdflatex -interaction=nonstopmode final_report.tex
-pdflatex -interaction=nonstopmode final_report.tex
+make final_report.pdf
 ```
 
-The final report should compile to `final_report.pdf`. The second `pdflatex` pass resolves cross-references.
+The final report should compile to `final_report.pdf`. The Makefile runs `pdflatex` twice because LaTeX needs a second pass to resolve citations and cross-references.
 
 ## Full Retraining Workflow
 
@@ -116,8 +117,7 @@ python3 scripts/make_mechanism_artifacts.py
 python3 scripts/make_report_figures.py
 
 cd ..
-pdflatex -interaction=nonstopmode final_report.tex
-pdflatex -interaction=nonstopmode final_report.tex
+make final_report.pdf
 ```
 
 The scripts write outputs under `reproduceable_workspace/artifacts/`, `reproduceable_workspace/figures/`, and `reproduceable_workspace/tables/`.
