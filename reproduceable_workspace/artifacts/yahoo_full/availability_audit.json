@@ -1,0 +1,20 @@
+{
+  "selected_source": "kaggle",
+  "expected_data_dir": "/Users/lam91/Downloads/CPSC_483_finalproject_20260425/reproduceable_workspace/data_raw/yahoo_r3",
+  "selected_train_file": "/Users/lam91/Downloads/CPSC_483_finalproject_20260425/reproduceable_workspace/data_raw/yahoo_r3/kaggle/user.txt",
+  "selected_test_file": "/Users/lam91/Downloads/CPSC_483_finalproject_20260425/reproduceable_workspace/data_raw/yahoo_r3/kaggle/random.txt",
+  "selected_train_exists": true,
+  "selected_test_exists": true,
+  "official_train_file": "/Users/lam91/Downloads/CPSC_483_finalproject_20260425/reproduceable_workspace/data_raw/yahoo_r3/ydata-ymusic-rating-study-v1_0-train.txt",
+  "official_test_file": "/Users/lam91/Downloads/CPSC_483_finalproject_20260425/reproduceable_workspace/data_raw/yahoo_r3/ydata-ymusic-rating-study-v1_0-test.txt",
+  "official_train_exists": false,
+  "official_test_exists": false,
+  "kaggle_train_file": "/Users/lam91/Downloads/CPSC_483_finalproject_20260425/reproduceable_workspace/data_raw/yahoo_r3/kaggle/user.txt",
+  "kaggle_test_file": "/Users/lam91/Downloads/CPSC_483_finalproject_20260425/reproduceable_workspace/data_raw/yahoo_r3/kaggle/random.txt",
+  "kaggle_train_exists": true,
+  "kaggle_test_exists": true,
+  "rl4rec_zip": "/tmp/yahoo_probe/yahoo-data.zip",
+  "rl4rec_zip_exists": false,
+  "rl4rec_zip_files": [],
+  "can_run_selected_source": true
+}

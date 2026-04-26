@@ -1,0 +1,17 @@
+\begin{table}[!h]
+\centering
+\small
+\caption{Mechanism diagnostics from cached intermediate results. Yahoo degree values use the full-data run; Coat diagnostics use the 20-seed sample.}
+\label{tab:mechanism}
+\begin{tabular}{@{}p{0.20\linewidth}p{0.56\linewidth}r@{}}
+\toprule
+Claim & Diagnostic & Value \\
+\midrule
+Yahoo depth shift & Avg. train degree in top-5, K1 $\to$ K3 & 265.7 $\to$ 284.4 \\
+Coat popularity signal & Spearman(train degree, random positive rate) & 0.191 \\
+Coat head/tail preference & Random positive rate, tail $\to$ head quartile & 0.364 $\to$ 0.443 \\
+Correction behavior & Avg. degree, vanilla-only $\to$ correction-only swaps & 12.53 $\to$ 10.04 \\
+Correction error mode & Positive rate, vanilla-only $\to$ correction-only swaps & 0.447 $\to$ 0.401 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,6 @@
+{
+  "n_runs": 120,
+  "device": "NVIDIA GeForce RTX 3060",
+  "summary_rows": 6,
+  "bootstrap_rows": 6
+}

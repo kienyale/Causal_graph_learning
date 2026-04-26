@@ -1,0 +1,14 @@
+{
+  "dataset": "coat",
+  "model": "corrected_k2_stronger",
+  "seed": 5,
+  "k_layers": 2,
+  "gamma": 0.7,
+  "residual": 0.2,
+  "embedding_dim": 32,
+  "epochs": 180,
+  "batch_size": 1024,
+  "lr": 0.03,
+  "weight_decay": 1e-05,
+  "topk": 5
+}

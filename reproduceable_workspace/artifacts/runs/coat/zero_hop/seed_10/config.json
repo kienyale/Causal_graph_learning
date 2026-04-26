@@ -1,0 +1,14 @@
+{
+  "dataset": "coat",
+  "model": "zero_hop",
+  "seed": 10,
+  "k_layers": 0,
+  "gamma": 0.0,
+  "residual": 0.0,
+  "embedding_dim": 32,
+  "epochs": 180,
+  "batch_size": 1024,
+  "lr": 0.03,
+  "weight_decay": 1e-05,
+  "topk": 5
+}

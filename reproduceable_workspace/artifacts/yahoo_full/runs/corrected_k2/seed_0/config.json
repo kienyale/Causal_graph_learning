@@ -1,0 +1,14 @@
+{
+  "dataset": "yahoo_r3_full",
+  "model": "corrected_k2",
+  "seed": 0,
+  "k_layers": 2,
+  "gamma": 0.35,
+  "residual": 0.2,
+  "embedding_dim": 32,
+  "epochs": 20,
+  "batch_size": 2048,
+  "lr": 0.03,
+  "weight_decay": 1e-05,
+  "topk": 5
+}

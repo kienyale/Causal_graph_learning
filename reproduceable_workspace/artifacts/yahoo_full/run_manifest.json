@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "dataset": "Yahoo! R3 kaggle train/test, observed-row sample",
+  "runs": 6,
+  "seed": 0,
+  "sample_frac": 1.0,
+  "epochs": 20,
+  "device": "cuda",
+  "summary_rows": 6
+}

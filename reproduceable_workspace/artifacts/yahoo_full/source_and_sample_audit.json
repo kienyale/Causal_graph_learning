@@ -1,0 +1,75 @@
+{
+  "train_mnar_kaggle_mirror": {
+    "file": "reproduceable_workspace/data_raw/yahoo_r3/kaggle/user.txt",
+    "rows": 311704,
+    "users": 15400,
+    "items": 1000,
+    "min_user": 0,
+    "max_user": 15399,
+    "min_item": 0,
+    "max_item": 999,
+    "rating_counts": {
+      "1": 97844,
+      "2": 39652,
+      "3": 49131,
+      "4": 48480,
+      "5": 76597
+    },
+    "duplicate_user_item_pairs": 0
+  },
+  "random_test_kaggle_mirror": {
+    "file": "reproduceable_workspace/data_raw/yahoo_r3/kaggle/random.txt",
+    "rows": 54000,
+    "users": 5400,
+    "items": 1000,
+    "min_user": 0,
+    "max_user": 5399,
+    "min_item": 0,
+    "max_item": 999,
+    "rating_counts": {
+      "1": 28417,
+      "2": 13064,
+      "3": 7770,
+      "4": 3371,
+      "5": 1378
+    },
+    "duplicate_user_item_pairs": 0
+  },
+  "sampling_data_unused": {
+    "file": "reproduceable_workspace/data_raw/yahoo_r3/kaggle/sampling_data.txt",
+    "rows": 24357,
+    "users": 2436,
+    "items": 999,
+    "min_user": 0,
+    "max_user": 2435,
+    "min_item": 0,
+    "max_item": 999,
+    "rating_counts": {
+      "1": 12787,
+      "2": 5865,
+      "3": 3485,
+      "4": 1511,
+      "5": 709
+    },
+    "duplicate_user_item_pairs": 14399
+  },
+  "full_candidate_diagnostics": {
+    "active_test_users": 5400,
+    "candidate_count_distribution": {
+      "10": 5400
+    },
+    "eval_users_with_positive": 3922,
+    "positive_count_distribution_eval_users": {
+      "1": 1052,
+      "2": 807,
+      "3": 662,
+      "4": 453,
+      "5": 345,
+      "6": 255,
+      "7": 140,
+      "8": 97,
+      "9": 66,
+      "10": 45
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ndcg_at_5": 0.673802156706067,
+  "recall_at_5": 0.4932898803450405,
+  "head_item_share": 0.14661921708185052,
+  "avg_recommended_train_degree": 14.388612099644128,
+  "js_recommendation_vs_random_test": 0.040254717075996496,
+  "n_eval_users": 281,
+  "runtime_seconds": 7.966333389282227,
+  "used_cuda": true
+}

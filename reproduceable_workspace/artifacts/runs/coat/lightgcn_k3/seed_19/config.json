@@ -1,0 +1,14 @@
+{
+  "dataset": "coat",
+  "model": "lightgcn_k3",
+  "seed": 19,
+  "k_layers": 3,
+  "gamma": 0.0,
+  "residual": 0.0,
+  "embedding_dim": 32,
+  "epochs": 180,
+  "batch_size": 1024,
+  "lr": 0.03,
+  "weight_decay": 1e-05,
+  "topk": 5
+}

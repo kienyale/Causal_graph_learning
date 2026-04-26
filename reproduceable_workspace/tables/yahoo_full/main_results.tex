@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+model & k_layers & gamma & residual & ndcg_mean & recall_mean & head_share_mean & js_mean & runtime_seconds & n_eval_users \\
+\midrule
+corrected_k2 & 2 & 0.3500 & 0.2000 & 0.6543 & 0.7069 & 0.1780 & 0.0559 & 64.0559 & 3922.0000 \\
+corrected_k2_stronger & 2 & 0.7000 & 0.2000 & 0.6468 & 0.7010 & 0.1802 & 0.0607 & 62.2878 & 3922.0000 \\
+lightgcn_k1 & 1 & 0.0000 & 0.0000 & 0.6794 & 0.7263 & 0.1738 & 0.0457 & 52.6932 & 3922.0000 \\
+lightgcn_k2 & 2 & 0.0000 & 0.0000 & 0.6735 & 0.7293 & 0.1824 & 0.0609 & 61.0763 & 3922.0000 \\
+lightgcn_k3 & 3 & 0.0000 & 0.0000 & 0.6601 & 0.7167 & 0.1894 & 0.0742 & 69.4303 & 3922.0000 \\
+zero_hop & 0 & 0.0000 & 0.0000 & 0.6528 & 0.6999 & 0.1677 & 0.0351 & 43.6968 & 3922.0000 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,7 @@
+diagnostic,value
+degree_vs_random_positive_rate_spearman,0.19068289177056996
+degree_vs_random_positive_rate_pearson,0.1943191423135351
+tail_quartile_random_positive_rate,0.3636879221569624
+head_quartile_random_positive_rate,0.44282019258317545
+corrected_k2_vanilla_only_label_rate,0.44708344708344705
+corrected_k2_correction_only_label_rate,0.4009464009464009
